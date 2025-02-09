@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                          // ES5 for browser compatibility
+      "module": "esnext",                       // Modules for bundling
+      "moduleResolution": "node",               // Resolving node modules
+      "strict": true,                           // Enable strict type-checking
+      "esModuleInterop": true,                  // Enable default imports
+      "skipLibCheck": true,                     // Skip library checking (faster builds)
+      "outDir": "./dist",                       // Output folder for compiled code
+      "rootDir": "./src",                       // Source folder for TypeScript files
+      "lib": ["dom", "esnext"]                  // Include browser types
+    },
+    "include": [
+      "src/**/*"                                // Include all files in the src folder
+    ],
+    "exclude": [
+      "node_modules"                            // Exclude node_modules
+    ]
+}
